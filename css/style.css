@@ -3,3 +3,11 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+:root {
+    --color-dark-grey: #1d1b1c;
+    --color-sandal: #ead2a9;
+    --color-red: #bf0d2b;
+    --color-orange: #e76f51;
+    --color-pink: #f04242;
+}
