@@ -11,7 +11,7 @@ setInterval(() => {
     let ss = day.getSeconds() * 6;
 
     //set the time in clock
-    hr.style.transform = `rotateZ(${hh + day.getMinutes() / 6}deg)`;
+    hr.style.transform = `rotateZ(${hh + mm / 12}deg)`;
     mn.style.transform = `rotateZ(${mm}deg)`;
     sc.style.transform = `rotateZ(${ss}deg)`;
 }, 0001);
